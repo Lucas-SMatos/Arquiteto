@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafael Motta Arquitetura | Espaços que Inspiram</title>
+  <meta name="description" content="Arquitetura sofisticada e atemporal. Criamos espaços que harmonizam estética, funcionalidade e bem-estar." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== PRELOADER ===================== -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <span class="preloader-logo">R·M</span>
+      <div class="preloader-bar"><span></span></div>
+    </div>
+  </div>
+
+  <!-- ===================== CURSOR ===================== -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===================== HEADER / NAV ===================== -->
+  <header id="header">
+    <div class="header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-main">Rafael Motta</span>
+        <span class="logo-sub">Arquitetura &amp; Design</span>
+      </a>
+
+      <nav class="nav-desktop">
+        <ul>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+          <li><a href="#processo" class="nav-link">Processo</a></li>
+          <li><a href="#depoimentos" class="nav-link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav-cta">Fale Conosco</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav class="nav-mobile" id="navMobile">
+      <ul>
+        <li><a href="#sobre" class="nav-link mobile-link">Sobre</a></li>
+        <li><a href="#servicos" class="nav-link mobile-link">Serviços</a></li>
+        <li><a href="#portfolio" class="nav-link mobile-link">Portfólio</a></li>
+        <li><a href="#processo" class="nav-link mobile-link">Processo</a></li>
+        <li><a href="#depoimentos" class="nav-link mobile-link">Depoimentos</a></li>
+        <li><a href="#contato" class="nav-link mobile-link">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img
+        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=85&auto=format&fit=crop"
+        alt="Residência moderna com interiores amplos e iluminação natural"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal-up">Arquitetura · Design · Bem-estar</p>
+      <h1 class="hero-title reveal-up delay-1">
+        Espaços que<br /><em>contam histórias</em>
+      </h1>
+      <p class="hero-desc reveal-up delay-2">
+        Transformamos ambientes em experiências únicas — onde cada linha, luz e textura reflete a essência de quem vive naquele espaço.
+      </p>
+      <div class="hero-actions reveal-up delay-3">
+        <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+        <a href="#contato" class="btn btn-ghost">Iniciar Projeto</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      <span class="scroll-line"></span>
+      <span class="scroll-label">Scroll</span>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num" data-target="14">0</span><span class="stat-unit">+</span>
+        <p class="stat-label">Anos de Experiência</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="230">0</span><span class="stat-unit">+</span>
+        <p class="stat-label">Projetos Realizados</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <span class="stat-num" data-target="18">0</span><span class="stat-unit"></span>
+        <p class="stat-label">Prêmios Nacionais</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SOBRE ===================== -->
+  <section id="sobre" class="section sobre-section">
+    <div class="container sobre-grid">
+      <div class="sobre-img-wrap reveal-left">
+        <div class="sobre-img-frame">
+          <img
+            src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80&auto=format&fit=crop"
+            alt="Interior sofisticado projetado pelo arquiteto"
+          />
+        </div>
+        <div class="sobre-badge">
+          <i class="fas fa-award"></i>
+          <span>Best Architect<br />São Paulo 2024</span>
+        </div>
+      </div>
+
+      <div class="sobre-text reveal-right">
+        <p class="section-eyebrow">Quem Somos</p>
+        <h2 class="section-title">Arquitetura com alma,<br /><em>design com propósito</em></h2>
+        <p class="sobre-lead">
+          Há mais de 14 anos, criamos projetos que equilibram estética contemporânea com funcionalidade inteligente — sempre colocando o cliente no centro de cada decisão.
+        </p>
+        <p class="sobre-body">
+          Rafael Motta é arquiteto formado pela FAU-USP, com especialização em design biofílico em Copenhague. Seu trabalho é marcado pelo uso sensível da luz natural, materiais nobres e pela escuta ativa das necessidades de cada cliente.
+        </p>
+        <div class="sobre-values">
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-leaf"></i></div>
+            <div>
+              <h4>Sustentabilidade</h4>
+              <p>Materiais responsáveis e arquitetura de baixo impacto ambiental.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-eye"></i></div>
+            <div>
+              <h4>Atenção ao Detalhe</h4>
+              <p>Cada elemento é pensado para criar harmonia e sofisticação.</p>
+            </div>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-handshake"></i></div>
+            <div>
+              <h4>Parceria</h4>
+              <p>Seu sonho guia todo o nosso processo criativo.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#contato" class="btn btn-outline">Conheça nossa história</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section id="servicos" class="section servicos-section">
+    <div class="container">
+      <div class="section-header centered reveal-up">
+        <p class="section-eyebrow">O que fazemos</p>
+        <h2 class="section-title">Serviços especializados<br /><em>para cada necessidade</em></h2>
+      </div>
+
+      <div class="servicos-grid">
+
+        <div class="servico-card reveal-up">
+          <div class="servico-icon"><i class="fas fa-home"></i></div>
+          <h3>Arquitetura Residencial</h3>
+          <p>Projetos de casas e apartamentos que traduzem a personalidade e o estilo de vida de cada cliente, com atenção máxima ao conforto e à beleza.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up delay-1">
+          <div class="servico-icon"><i class="fas fa-building"></i></div>
+          <h3>Arquitetura Comercial</h3>
+          <p>Escritórios, lojas e espaços corporativos que comunicam valores da marca e proporcionam experiências memoráveis para colaboradores e clientes.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up delay-2">
+          <div class="servico-icon"><i class="fas fa-couch"></i></div>
+          <h3>Design de Interiores</h3>
+          <p>Composição de ambientes internos com mobiliário, revestimentos e iluminação cuidadosamente selecionados para criar atmosferas únicas e acolhedoras.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up delay-3">
+          <div class="servico-icon"><i class="fas fa-drafting-compass"></i></div>
+          <h3>Projetos Customizados</h3>
+          <p>Soluções sob medida para demandas específicas: reforma, ampliação, retrofit e requalificação de espaços existentes com nova vida e identidade.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up delay-1">
+          <div class="servico-icon"><i class="fas fa-seedling"></i></div>
+          <h3>Arquitetura Biofílica</h3>
+          <p>Integração entre espaços construídos e elementos naturais — luz, vegetação, água e materiais orgânicos — para ambientes que nutrem o bem-estar.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="servico-card reveal-up delay-2">
+          <div class="servico-icon"><i class="fas fa-vr-cardboard"></i></div>
+          <h3>Visualização 3D</h3>
+          <p>Renderizações fotorrealistas e tours virtuais que permitem vivenciar o projeto antes mesmo da primeira pedra ser lançada.</p>
+          <a href="#contato" class="servico-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PORTFOLIO ===================== -->
+  <section id="portfolio" class="section portfolio-section">
+    <div class="container">
+      <div class="section-header centered reveal-up">
+        <p class="section-eyebrow">Portfólio</p>
+        <h2 class="section-title">Projetos que <em>transformam</em></h2>
+      </div>
+
+      <div class="portfolio-filters reveal-up delay-1">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="residencial">Residencial</button>
+        <button class="filter-btn" data-filter="comercial">Comercial</button>
+        <button class="filter-btn" data-filter="interior">Interiores</button>
+      </div>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item large reveal-up" data-category="residencial">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&q=80&auto=format&fit=crop" alt="Casa Vista Verde" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Residencial</span>
+                <h3>Casa Vista Verde</h3>
+                <p>São Paulo, SP · 2024</p>
+                <a href="#contato" class="btn btn-ghost-sm">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal-up delay-1" data-category="interior">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=700&q=80&auto=format&fit=crop" alt="Loft Minimalista" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Interiores</span>
+                <h3>Loft Minimalista</h3>
+                <p>Vila Madalena, SP · 2024</p>
+                <a href="#contato" class="btn btn-ghost-sm">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal-up delay-2" data-category="comercial">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=700&q=80&auto=format&fit=crop" alt="Escritório Horizonte" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Comercial</span>
+                <h3>Escritório Horizonte</h3>
+                <p>Faria Lima, SP · 2023</p>
+                <a href="#contato" class="btn btn-ghost-sm">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal-up delay-1" data-category="residencial">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=700&q=80&auto=format&fit=crop" alt="Villa Beira-Mar" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Residencial</span>
+                <h3>Villa Beira-Mar</h3>
+                <p>Guarujá, SP · 2023</p>
+                <a href="#contato" class="btn btn-ghost-sm">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item large reveal-up delay-2" data-category="interior">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=900&q=80&auto=format&fit=crop" alt="Suite Serena" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Interiores</span>
+                <h3>Suite Serena</h3>
+                <p>Itaim Bibi, SP · 2023</p>
+                <a href="#contato" class="btn btn-ghost-sm">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal-up delay-3" data-category="comercial">
+          <div class="portfolio-img-wrap">
+            <img src="https://images.unsplash.com/photo-1604328698692-f76ea9498e76?w=700&q=80&auto=format&fit=crop" alt="Galeria Forma" />
+            <div class="portfolio-overlay">
+              <div class="portfolio-info">
+                <span class="portfolio-cat">Comercial</span>
+                <h3>Galeria Forma</h3>
+                <p>Jardins, SP · 2022</p>
+                <a href="#contato" class="btn btn-ghost-sm">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="portfolio-cta reveal-up">
+        <a href="#contato" class="btn btn-primary">Ver Todos os Projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESSO ===================== -->
+  <section id="processo" class="section processo-section">
+    <div class="container">
+      <div class="processo-grid">
+        <div class="processo-text reveal-left">
+          <p class="section-eyebrow">Como trabalhamos</p>
+          <h2 class="section-title">Um processo<br /><em>transparente e humano</em></h2>
+          <p class="processo-desc">
+            Do primeiro encontro à entrega das chaves, acompanhamos cada etapa com dedicação, clareza e cuidado — para que você tenha tranquilidade durante toda a jornada.
+          </p>
+          <a href="#contato" class="btn btn-outline">Iniciar conversa</a>
+        </div>
+
+        <div class="processo-steps reveal-right">
+          <div class="step">
+            <div class="step-number">01</div>
+            <div class="step-content">
+              <h4>Escuta & Briefing</h4>
+              <p>Primeira reunião para entender seus sonhos, rotina, preferências estéticas e necessidades práticas.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">02</div>
+            <div class="step-content">
+              <h4>Conceito & Proposta</h4>
+              <p>Desenvolvemos um partido arquitetônico único, apresentando conceitos visuais e diretrizes do projeto.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">03</div>
+            <div class="step-content">
+              <h4>Projeto Executivo</h4>
+              <p>Documentação técnica completa com plantas, cortes, especificações e detalhamentos construtivos.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">04</div>
+            <div class="step-content">
+              <h4>Acompanhamento de Obra</h4>
+              <p>Visitas periódicas e suporte constante para garantir que a execução reflita cada detalhe do projeto.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-number">05</div>
+            <div class="step-content">
+              <h4>Entrega & Pós-obra</h4>
+              <p>Entrega do espaço finalizado e suporte contínuo para eventuais ajustes e dúvidas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== BANNER PARALLAX ===================== -->
+  <section class="banner-parallax">
+    <div class="banner-bg">
+      <img
+        src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&q=80&auto=format&fit=crop"
+        alt="Interior amplo com luz natural"
+      />
+      <div class="banner-overlay"></div>
+    </div>
+    <div class="banner-content reveal-up">
+      <p class="banner-quote">"Arquitetura é a arte de criar espaços que elevam o espírito humano."</p>
+      <span class="banner-author">— Rafael Motta</span>
+    </div>
+  </section>
+
+  <!-- ===================== DEPOIMENTOS ===================== -->
+  <section id="depoimentos" class="section depoimentos-section">
+    <div class="container">
+      <div class="section-header centered reveal-up">
+        <p class="section-eyebrow">Depoimentos</p>
+        <h2 class="section-title">O que nossos clientes<br /><em>têm a dizer</em></h2>
+      </div>
+
+      <div class="depoimentos-slider">
+        <div class="depoimentos-track" id="depoimentosTrack">
+
+          <div class="depoimento-card">
+            <div class="dep-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="dep-text">"O Rafael transformou nossa casa em um refúgio. Cada detalhe foi pensado com tanto cuidado que ficamos sem palavras na entrega. É uma experiência que vai além do visual — é sensorial."</p>
+            <div class="dep-author">
+              <div class="dep-avatar">AM</div>
+              <div>
+                <strong>Ana & Marcos Oliveira</strong>
+                <span>Casa Vista Verde · São Paulo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="depoimento-card">
+            <div class="dep-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="dep-text">"Trabalhar com o escritório foi uma revelação. Eles entenderam nossa visão de marca antes mesmo de começarmos e criaram um escritório que impressiona todos que entram."</p>
+            <div class="dep-author">
+              <div class="dep-avatar">CF</div>
+              <div>
+                <strong>Carolina Ferraz</strong>
+                <span>CEO · Escritório Horizonte</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="depoimento-card">
+            <div class="dep-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="dep-text">"A experiência foi incrível do início ao fim. Comunicação impecável, prazos respeitados e um resultado que supera tudo que imaginávamos. Recomendo sem hesitar."</p>
+            <div class="dep-author">
+              <div class="dep-avatar">RB</div>
+              <div>
+                <strong>Ricardo Barbosa</strong>
+                <span>Villa Beira-Mar · Guarujá</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="depoimento-card">
+            <div class="dep-stars">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            </div>
+            <p class="dep-text">"O loft ficou simplesmente perfeito. Conseguiram trazer luz, amplitude e personalidade para um espaço pequeno. Recebo elogios toda vez que tenho convidados."</p>
+            <div class="dep-author">
+              <div class="dep-avatar">JS</div>
+              <div>
+                <strong>Juliana Santos</strong>
+                <span>Loft Minimalista · Vila Madalena</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="depoimentos-nav">
+          <button class="dep-prev" id="depPrev" aria-label="Anterior"><i class="fas fa-chevron-left"></i></button>
+          <div class="dep-dots" id="depDots"></div>
+          <button class="dep-next" id="depNext" aria-label="Próximo"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTATO ===================== -->
+  <section id="contato" class="section contato-section">
+    <div class="container">
+      <div class="contato-grid">
+
+        <div class="contato-info reveal-left">
+          <p class="section-eyebrow">Entre em Contato</p>
+          <h2 class="section-title">Vamos criar algo<br /><em>extraordinário juntos</em></h2>
+          <p class="contato-desc">
+            Conte-nos sobre seu projeto e agende uma conversa inicial sem compromisso. Estamos ansiosos para ouvir sua história.
+          </p>
+
+          <div class="contato-items">
+            <div class="contato-item">
+              <div class="contato-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <strong>Endereço</strong>
+                <p>Rua Haddock Lobo, 595 — Jardins<br />São Paulo, SP · 01414-001</p>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><i class="fas fa-phone"></i></div>
+              <div>
+                <strong>Telefone</strong>
+                <p>+55 (11) 99876-5432</p>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><i class="fas fa-envelope"></i></div>
+              <div>
+                <strong>E-mail</strong>
+                <p>contato@rafaelmotta.arq.br</p>
+              </div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><i class="fas fa-clock"></i></div>
+              <div>
+                <strong>Atendimento</strong>
+                <p>Seg–Sex: 9h às 18h</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+
+        <div class="contato-form-wrap reveal-right">
+          <form class="contato-form" id="contatoForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome completo *</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail *</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(11) 99999-9999" />
+              </div>
+              <div class="form-group">
+                <label for="tipo">Tipo de projeto *</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="" disabled selected>Selecione...</option>
+                  <option value="residencial">Residencial</option>
+                  <option value="comercial">Comercial</option>
+                  <option value="interiores">Interiores</option>
+                  <option value="reforma">Reforma / Retrofit</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group full">
+              <label for="mensagem">Conte-nos sobre seu projeto *</label>
+              <textarea id="mensagem" name="mensagem" rows="5" placeholder="Descreva seu espaço, sonhos e expectativas..." required></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="privacidade" name="privacidade" required />
+              <label for="privacidade">Concordo com a <a href="#">Política de Privacidade</a> e autorizo o contato.</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+              <span>Enviar Mensagem</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <i class="fas fa-check-circle"></i>
+              <p>Mensagem enviada com sucesso! Retornaremos em breve.</p>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <p class="footer-logo">Rafael Motta</p>
+          <p class="footer-tagline">Arquitetura &amp; Design</p>
+          <p class="footer-about">Criamos espaços que inspiram, acolhem e transformam a forma como as pessoas vivem e trabalham.</p>
+        </div>
+        <div class="footer-links">
+          <h5>Navegação</h5>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#processo">Processo</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Serviços</h5>
+          <ul>
+            <li><a href="#servicos">Arquitetura Residencial</a></li>
+            <li><a href="#servicos">Arquitetura Comercial</a></li>
+            <li><a href="#servicos">Design de Interiores</a></li>
+            <li><a href="#servicos">Arquitetura Biofílica</a></li>
+            <li><a href="#servicos">Visualização 3D</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h5>Contato</h5>
+          <p><i class="fas fa-map-marker-alt"></i> Jardins, São Paulo — SP</p>
+          <p><i class="fas fa-phone"></i> +55 (11) 99876-5432</p>
+          <p><i class="fas fa-envelope"></i> contato@rafaelmotta.arq.br</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 Rafael Motta Arquitetura & Design. Todos os direitos reservados.</p>
+        <p><a href="#">Política de Privacidade</a> · <a href="#">Termos de Uso</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
